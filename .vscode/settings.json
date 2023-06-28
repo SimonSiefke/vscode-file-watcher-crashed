@@ -1,11 +1,3 @@
 {
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/.hg/store/**": true,
-    "**/.vscode-test-workspace/**": true,
-    "**/.vscode-user-data-dir/**": true,
-    "**/dist/**": true,
-    "**/fixtures/**": true
-  }
+  "files.watcherExclude": {}
 }
