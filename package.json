@@ -1,7 +1,7 @@
 {
   "name": "vscode-file-watcher-crashed",
   "version": "1.0.0",
-  "description": "```sh git clone TODO && code TODO ```",
+  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@vscode/test-electron": "^2.3.3"
+    "@vscode/test-electron": "^2.3.6"
   }
 }

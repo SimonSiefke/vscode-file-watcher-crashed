@@ -1,13 +1,11 @@
-
-import {spawn} from 'node:child_process'
+import { spawn } from "node:child_process";
 
 export const downloadAndUnzipVscode = async (vscodeVersion) => {
   const { downloadAndUnzipVSCode } = await import("@vscode/test-electron");
   const path = await downloadAndUnzipVSCode(vscodeVersion);
   spawn(path, {
-    stdio:'inherit'
-  })
+    stdio: "inherit",
+  });
 };
 
-
-downloadAndUnzipVscode('1.79.2')
+downloadAndUnzipVscode("1.84.0");

@@ -7,6 +7,12 @@ npm ci &&
 node index.js
 ```
 
+Once VSCode is opened,
+
+- Open the Main Output channel
+- Reload vscode
+- An error message is dispayed in the output channel: `[error] [UtilityProcess id: 1, type: fileWatcher, pid: 28113]: crashed with code 15 and reason 'killed'`
+
 ### Output
 
 ```
