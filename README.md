@@ -13,7 +13,11 @@ Once VSCode is opened,
 - Reload vscode
 - An error message is dispayed in the output channel: `[error] [UtilityProcess id: 1, type: fileWatcher, pid: 28113]: crashed with code 15 and reason 'killed'`
 
-### Output
+## Gitpod
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/SimonSiefke/vscode-file-watcher-crashed)
+
+### Full Output
 
 ```
 2023-06-28 18:07:17.095 [info] update#setState idle
